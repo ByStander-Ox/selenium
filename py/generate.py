@@ -955,7 +955,7 @@ def main(browser_protocol_path, js_protocol_path):
         browser_protocol_path,
         js_protocol_path,
     ]
-    output_path = here / 'cdp'
+    output_path = here / 'selenium/webdriver/common/devtools'
     output_path.mkdir(exist_ok=True)
 
     # Remove generated code
